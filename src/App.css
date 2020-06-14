@@ -79,13 +79,9 @@ nav{
 .hom{
   font-size: 30px;
 }
-@keyframes wrld-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@keyframes wrld-spin { from {
+    transform: rotate(0deg); } to {
+    transform: rotate(360deg); }
 }
 .main {
   padding-top: 15%;
@@ -98,17 +94,12 @@ nav{
 .iconp{
   display: none;
 }
-.washhand{
-  background: #4CAF50;
-  border: solid #4CAF50;
-  border-radius: 20px;
-  width: 45%;
-  position: relative;
-  left: 1%;
-}
 .washhand h2{
   color:#fff;
 }
+ .confirm-case{color: rgb(10, 112, 207); }
+  .discharged-case{ color: #288a2c; }
+  .Deaths-case{ color: red;}
 .wash{
   width: 90px;
   height: 90px;
@@ -208,9 +199,7 @@ nav{
     position: relative;
     position: relative;
     font-size: 35px;
-    /* z-index: 99; */
     background: #fff;
-    /* border-bottom: solid 1px #000000a3; */
     top: 80px;
     margin-left: 7%;
 }
@@ -244,7 +233,6 @@ nav{
   margin-bottom: 1px;
   font-size: 18px;
 }
-
 .tracker{
   position: absolute;
   margin-left: 45%;
@@ -395,7 +383,6 @@ td{
   margin: 20%;
 }
 .ss p{
-
   text-align: center;
   font-size: 15px;
   margin-left: -6%;
@@ -451,7 +438,6 @@ nav{
   z-index: 100;
   position: fixed;
   border-top: solid 1px #607D8B;
-  
 }
 .tit{
   margin-top: 2%;
@@ -460,27 +446,16 @@ nav{
 .global {
   padding-top: 15%;
 }
-
+/* DeskTop View */
 @media(min-width:1200px){
   .App {
     text-align: center;
   }
   @media (prefers-reduced-motion: no-preference) {
-    .wrld {
-      animation: wrld-spin infinite 10s linear;
-    }
-    .live-icon{
-      animation: circlei 1.2s infinite;
-      color:red;
-    }
+    .wrld { animation: wrld-spin infinite 10s linear;}
+    .live-icon{ animation: circlei 1.2s infinite; color:red;}
   }
-  @keyframes circlei{
-    0%{color: red;}
-    49%{color: red;}
-    60%{color: transparent;}
-    99%{color: transparent;}
-    100%{color: red;}
-  }
+  @keyframes circlei{0%{color: red;}  49%{color: red;}  60%{color: transparent;}  99%{color: transparent;}  100%{color: red;}}
   .naijaflag{
     width: 25px;
     height: 25px;
@@ -545,11 +520,9 @@ nav{
   .hom{
     font-size: 30px;
   }
-  @keyframes wrld-spin {
-    from {
+  @keyframes wrld-spin { from {
       transform: rotate(0deg);
-    }
-    to {
+    } to {
       transform: rotate(360deg);
     }
   }
@@ -571,14 +544,6 @@ nav{
     position: initial;
     display: inline-block;
     left: 20%;
-  }
-  .washhand{
-    background: #4CAF50;
-    border: solid #4CAF50;
-    border-radius: 20px;
-    width: 45%;
-    position: relative;
-    left: 1%;
   }
   .washhand h2{
     color:#fff;
@@ -676,7 +641,6 @@ nav{
       position: relative;
       position: relative;
       font-size: 35px;
-      /* z-index: 99; */
       background: #fff;
       top: 80px;
       margin-left: 7%;
@@ -798,15 +762,9 @@ nav{
     height: 35px;
     margin-bottom: -5%;
   }
-  .confirm-case{
-    color: rgb(10, 112, 207);
-  }
-  .discharged-case{
-    color: #288a2c;
-   }
-  .Deaths-case{
-    color: red;
-  }
+  .confirm-case{color: rgb(10, 112, 207); }
+  .discharged-case{ color: #288a2c; }
+  .Deaths-case{ color: red;}
   .tt{
     margin-left: 14%;
       margin-top: 20%;
@@ -885,8 +843,7 @@ border: none;
     color: red;
     font-size: 21px; }
   .ss{
-    margin: 20%;
-  }
+    margin: 20%;}
   .ss p{
     text-align: center;
     font-size: 15px;
