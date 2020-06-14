@@ -6,13 +6,19 @@ import axios from 'axios';
 import {FaRegDotCircle} from 'react-icons/fa';
 
 
+
+
+
 function Nigeria() {
   const initialUserState ={
     user:[],
     loading: true,
   }
+  
+  
   const [user, setUser]=useState(initialUserState)
   const[nstate, setNstate] =useState([]);
+  
   
 
 useEffect(()=>{
@@ -43,6 +49,8 @@ useEffect(()=>{
 }, []);
 
 
+  
+  
 const nstates=nstate.map(data =>{
  return(
              
@@ -57,6 +65,9 @@ const nstates=nstate.map(data =>{
 
  );
 });
+  
+  
+  
   return user.loading ?(
 <div className="load">Loading...</div>
   ):(
@@ -69,10 +80,14 @@ const nstates=nstate.map(data =>{
                              <div className="tt"><h4 className="Deaths-case">{user.deaths}</h4><p>Deaths</p></div>
                              <p className="text-h"><img src={flag} alt='wash' className="naijaflag" /> Nigeria Stats</p>
             </div>
+    
+    
             <div className="sourceDiv">
               <p className="source">Source:NCDC(Nigeria Centre for Disease Control)</p>
              
               </div>
+  
+  
             <table className="naija">
   <tbody> 
     <tr className="table-header">
@@ -82,7 +97,7 @@ const nstates=nstate.map(data =>{
       <td className="red">Deaths</td>
       </tr>     
           {nstates}
-          <div className="credit">Built With  ❤️ By Priye </div>
+          <div className="credit">#StafeSafe </div>
           </tbody>
           </table>
          
@@ -92,4 +107,7 @@ const nstates=nstate.map(data =>{
   );
   
 }
+
+
+
 export default Nigeria;
