@@ -1,0 +1,1084 @@
+.App {
+  text-align: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .wrld {
+    animation: wrld-spin infinite 10s linear;
+  
+  }
+  .live-icon{
+    animation: circlei 1.2s infinite;
+    color:red;
+  }
+}
+@keyframes circlei{
+  0%{color: red;}
+  49%{color: red;}
+  60%{color: transparent;}
+  99%{color: transparent;}
+  100%{color: red;}
+}
+.naijaflag{
+  width: 25px;
+  height: 25px;
+  margin-bottom: 3%;
+}
+.log {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: -2px;
+}
+header{
+  background-color: #1b1818;
+    color: #fff;
+    width: 100%;
+    min-height: 9vh;
+    position: fixed;
+    z-index:10;
+    top:-1%
+}
+header h1 {
+  color: #fff;
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-left: 3%;
+  position: relative;
+  top: 12px;
+}
+.preh{
+  text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.preorder{
+text-align: center;
+}
+.preorder li {
+  list-style: none;
+  display: flex;
+  color: red;
+  font-weight: 700;
+}
+.preorder p{
+  margin-left: 5%;
+  color: #000;
+  font-weight: initial;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: #ffffff;
+  color: #fff;
+  position: fixed;
+  overflow: hidden;
+  z-index: 20;
+  border-top: solid 1px #000;
+  top: 90%;
+  width: 100%;
+}
+.nav-links{
+  width: 110%;
+    font-size: 37px;
+    left: -10%;
+    position: fixed;
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+.nav-links li {
+  color: #030303;
+}
+.nav-links li:hover{
+  border-top: solid 6px #fff;
+}
+.hom{
+  font-size: 30px;
+}
+@keyframes wrld-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.main {
+  padding-top: 15%;
+}
+.prevent1{
+  display: flex;
+  margin-top: 39%;
+  line-height: 140%;
+}
+.iconp{
+  display: none;
+}
+.washhand{
+  background: #4CAF50;
+  border: solid #4CAF50;
+  border-radius: 20px;
+  width: 45%;
+  position: relative;
+  left: 1%;
+}
+.washhand h2{
+  color:#fff;
+}
+.wash{
+  width: 90px;
+  height: 90px;
+  position: relative;
+  left: 33%;
+}
+.facemask{
+  background: #03A9F4;
+  border: solid #00BCD4;
+  border-radius: 20px;
+  width: 45%;
+    left: 6%;
+    position: relative;
+}
+.facemask h2{
+  color:#fff;
+}
+.prevent2{
+  display: flex;
+  margin-top: 4%;
+  line-height: 140%;
+}
+.SD{
+  background: #ff5722;
+  border: solid #ff5722;
+  border-radius: 20px;
+  width: 45%;
+    left: 1%;
+    position: relative;
+}
+.SD h2{
+  color:#fff;
+}
+.SH{
+  background: #ff9800;
+  border: solid #ff9800;
+  border-radius: 20px;
+  width: 45%;
+    left: 6%;
+    position: relative;
+}
+.SH h2{
+  color:#fff;
+}
+.head{
+
+}
+.head p{
+  font-size: 20px;
+  font-weight: 700;
+    text-transform: capitalize;
+    color: #000;
+    display: flex;
+    position: fixed;
+    top: 89px;
+}
+/* .pre{
+  font-size: 40px;
+  position: fixed;
+  top: 55px;
+  border-left: solid 9px #1b1818;
+} */
+.stp{
+  width: 35px;
+  height: 35px;
+}
+.covid{
+ 
+}
+.table-flag{
+  width:20px;
+ 
+}
+.one{
+  display: flex;
+  position: fixed;
+  z-index: 99;
+  font-size: 35px;
+  border-bottom: solid 3px #0109104a;
+  border-radius: 10px;
+  border-right: solid #0109104a;
+  border-left: solid #0109104a;
+  border-top: solid #0109104a;
+  left: 2.5%;
+  width: 95%;
+  top: 9%;
+  height: 26%;
+  background: #fff;
+}
+.sym{
+  display: flex;
+    position: fixed;
+    font-size: 35px;
+    z-index: 99;
+    background: #fff;
+    border-bottom: solid 1px #000;
+    top: 25%;
+    width: 100%;
+}
+.symtitle{
+  border-left: solid 9px #1b1818;
+    position: absolute;
+    top: 10%;
+    z-index: 22;
+    margin-left: 2%;
+}
+.symicon{
+  display: inline-flex;
+    position: relative;
+    position: relative;
+    font-size: 35px;
+    /* z-index: 99; */
+    background: #fff;
+    /* border-bottom: solid 1px #000000a3; */
+    top: 80px;
+    margin-left: 7%;
+}
+.search{
+  position: absolute;
+  top: 48.8%;
+  width: 100%;
+  height: 6%;
+  border-radius: 10px;
+}
+.about-child li{
+  margin: 3%;
+}
+.about-button{
+  background: #2172e6;
+  border: none;
+    width: 150px;
+    margin-bottom: 50%;
+    color: #fff;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 30%;
+    height: 50px;
+    border-color: #2172e6;
+}
+.abt{
+  margin-top: 0;
+  margin-bottom: 1px;
+  font-size: 18px;
+}
+
+.tracker{
+  position: absolute;
+  margin-left: 45%;
+  top: -2%;
+  color: #259245;
+  font-weight: 700;
+}
+.space{
+
+}
+.sym p{
+  color:#000;
+  font-weight:700;
+}
+.symicon{
+  width: 80px;
+    height: 80px;
+    position: relative;
+    margin-left: 2%;
+    top: 1px;
+}
+.symmain{
+  color: #000;
+  margin-top: 40px;
+  border-top: solid 1px;
+}
+.symDiv{
+
+}
+.gray{
+  color: #fff;
+  background: gray;
+}
+.green{
+  color: #fff;
+  background: #008000d6;
+}
+.red{
+  color: #fff;
+  background: #f30a0ad1;
+}
+.symDiv li{
+  margin-left: 3%;
+  list-style: circle;
+}
+.one p{
+  font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    text-transform: uppercase;
+}
+.ca{
+  font-size: 25px;
+  font-weight: 700;
+  color: #259245;
+  border-left: 7px solid;
+  margin-left: 7px;
+}
+.source{
+  margin-left: 2%;
+  font-weight: 700;
+  color: #636363;
+}
+.sourceDiv{
+  position: absolute;
+  top: 36%;
+}
+.naija{
+  border-collapse: collapse;
+  width: 100%;
+  border: 3px solid #ddd;
+  text-align: center;
+  position: absolute;
+  top: 45%;
+}
+.text{
+  font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    text-transform: uppercase;
+}
+.flag{
+  width: 35px;
+  height: 35px;
+  margin-bottom: -5%;
+}
+.confirm-case{
+  color: rgb(10, 112, 207);
+}
+
+.discharged-case{
+  color: #288a2c;
+ }
+.Deaths-case{
+  color: red;
+  
+}
+.tt{
+  margin-left: 14%;
+    margin-top: 20%;
+    position: relative;
+    top: -30px;
+}
+.tt p {
+  font-size: 11px;
+    margin-top: -13%;
+}
+.gg{
+  margin-left: 6%;
+    margin-top: 15%;
+    position: relative;
+    top: 30px;
+}
+.gg p {
+  font-size: 11px;
+    margin-top: -13%;
+    text-align: center;
+    margin-left: 20%;
+}
+.live{
+  color:red;
+}
+.text-g{
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  top:80%;
+  left: 33%;
+  text-transform: uppercase;
+}
+.text-h{
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  top:80%;
+  left: 26%;
+  text-transform: uppercase;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 3px solid #ddd;
+  text-align: center;
+  position: absolute;
+  top: 55%;
+}
+.table-header{
+  background: #ffffff;
+  font-weight: 700;
+}
+.table-state{
+  background-color: #ddd;
+  border-bottom: solid 1px #a19d9d;
+}
+td{
+  border: 1px solid #ddd;
+  font-weight:700;
+    padding-top: 8px;
+    text-align: center;
+    padding-bottom: 8px;
+}
+.confirm-case-g{
+  color: #00BCD4;
+  font-size: 21px;
+}
+.discharged-case-g{
+  color: #288a2c;
+  font-size: 21px;
+}
+.Deaths-case-g{
+  color: red;
+  font-size: 21px;
+}
+.ss{
+  margin: 20%;
+}
+.ss p{
+
+  text-align: center;
+  font-size: 15px;
+  margin-left: -6%;
+  font-weight: 700;
+  position: relative;
+  top: -20px;
+}
+.about{
+  position: absolute;
+    top: 50%;
+    font-size: 20px;
+    border-bottom: solid 1px #0000006b;
+}
+.about-child{
+  position: absolute;
+    top: 69%;
+    font-size: 20px;
+    margin: 5%;
+}
+.preventDiv{
+  position: relative;
+    top: 80px;
+    border: solid 2px #1b1a1abd;
+    border-radius: 20px;
+    width: 95%;
+    margin-left: 2.5%;
+}
+.symptoms-head{
+  position: absolute;
+  height: 20%;
+  width: 100%;
+  top: 7.7%;
+  z-index:2;
+  text-align: center;
+}
+.symptoms-head h1 {
+color:#000;
+}
+.load{
+  position: absolute;
+  top: 20%;
+  margin: 35%;
+  font-weight: 700;
+  font-size: 25px;
+  transition: fade-out 9s;
+}
+.credit{
+  position: absolute;
+    top: 105%;
+}
+nav{
+  display: block;
+  z-index: 100;
+  position: fixed;
+  border-top: solid 1px #607D8B;
+  
+}
+/* .symptoms-head p{
+  font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #fff;
+    display: flex;
+    position: fixed;
+    top: 16%;
+} */
+.tit{
+  margin-top: 2%;
+  margin-left: 2%;
+}
+.global {
+  padding-top: 15%;
+}
+
+@media(min-width:1200px){
+  .App {
+    text-align: center;
+  }
+  
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .wrld {
+      animation: wrld-spin infinite 10s linear;
+    
+    }
+    .live-icon{
+      animation: circlei 1.2s infinite;
+      color:red;
+    }
+  }
+  @keyframes circlei{
+    0%{color: red;}
+    49%{color: red;}
+    60%{color: transparent;}
+    99%{color: transparent;}
+    100%{color: red;}
+  }
+  .naijaflag{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 3%;
+  }
+  .log {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -2px;
+  }
+  header{
+    background-color: #1b1818;
+    color: #fff;
+    width: 100%;
+    min-height: 9vh;
+    position: fixed;
+    z-index: 150;
+    top: -1%;
+
+  }
+  header h1 {
+    color: #fff;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-left: 3%;
+    position: relative;
+    top: 12px;
+  }
+  .preh{
+    text-align: center;
+      text-transform: uppercase;
+      font-weight: 900;
+  }
+  
+  .preorder{
+    text-align: center;
+    position: relative;
+    left: 20%;
+  }
+  .preorder li {
+    list-style: none;
+    display: flex;
+    color: red;
+    font-weight: 700;
+  }
+  .preorder p{
+    margin-left: 5%;
+    color: #000;
+    font-weight: initial;
+  }
+  nav{
+    line-height: 5;
+  }
+  .nav-links{
+    left: -25px;
+    position: relative;
+    display: block;
+    border-right: solid 2px #000;
+    width: 25%;
+  }
+  .nav-links li {
+    color: #030303;
+  }
+  .nav-links li:hover{
+    border-top: solid 6px #fff;
+  }
+  .hom{
+    font-size: 30px;
+  }
+  @keyframes wrld-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .main {
+    padding-top: 15%;
+  }
+  .prevent1{
+    display: flex;
+    margin-top: 39%;
+    line-height: 140%;
+  }
+  .iconp{
+    font-size: 20px;
+    margin-top: -1%;
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 48px;
+    position: initial;
+    display: inline-block;
+    left: 20%;
+  }
+  .washhand{
+    background: #4CAF50;
+    border: solid #4CAF50;
+    border-radius: 20px;
+    width: 45%;
+    position: relative;
+    left: 1%;
+  }
+  .washhand h2{
+    color:#fff;
+  }
+  .wash{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    left: 40%;
+  }
+  .facemask{
+    background: #03A9F4;
+    border: solid #00BCD4;
+    border-radius: 20px;
+    width: 45%;
+      left: 6%;
+      position: relative;
+  }
+  .facemask h2{
+    color:#fff;
+  }
+  .prevent2{
+    display: flex;
+    margin-top: 4%;
+    line-height: 140%;
+  }
+  .SD{
+    background: #ff5722;
+    border: solid #ff5722;
+    border-radius: 20px;
+    width: 45%;
+      left: 1%;
+      position: relative;
+  }
+  .SD h2{
+    color:#fff;
+  }
+  .SH{
+    background: #ff9800;
+    border: solid #ff9800;
+    border-radius: 20px;
+    width: 45%;
+      left: 6%;
+      position: relative;
+  }
+  .SH h2{
+    color:#fff;
+  }
+  .head{
+  
+  }
+  .head p{
+    font-size: 20px;
+    font-weight: 700;
+      text-transform: capitalize;
+      color: #000;
+      display: flex;
+      position: fixed;
+      top: 89px;
+  }
+  /* .pre{
+    font-size: 40px;
+    position: fixed;
+    top: 55px;
+    border-left: solid 9px #1b1818;
+  } */
+  .stp{
+    width: 35px;
+    height: 35px;
+  }
+  .covid{
+   
+  }
+  .table-flag{
+    width:20px;
+   
+  }
+  .one{
+    display: flex;
+    position: absolute;
+    left: 25%;
+    border: none;
+    width: 350px;
+    top: 9%;
+    height: 26%;
+    background: #fff;
+  }
+  .sym{
+    display: flex;
+      position: fixed;
+      font-size: 35px;
+      z-index: 99;
+      background: #fff;
+      border-bottom: solid 1px #000;
+      top: 25%;
+      width: 100%;
+  }
+  .symtitle{
+    border-left: solid 9px #1b1818;
+      position: absolute;
+      top: 10%;
+      z-index: 22;
+      margin-left: 2%;
+  }
+  .symicon{
+    display: inline-flex;
+      position: relative;
+      position: relative;
+      font-size: 35px;
+      /* z-index: 99; */
+      background: #fff;
+      /* border-bottom: solid 1px #000000a3; */
+      top: 80px;
+      margin-left: 7%;
+  }
+  .search{
+    position: absolute;
+    top: 48%;
+    width: 30%;
+    left: 25%;
+    z-index: 10;
+    height: 6%;
+    border-radius: 10px;
+  }
+  .about-child li{
+    margin: 3%;
+  }
+  .about-button{
+    background: #2172e6;
+    width: 100px;
+    margin-bottom: 50%;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+    z-index: 20;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 58%;
+    height: 50px;
+    border-color: #2172e6;
+  }
+  .abt{
+    margin-top: 0;
+    margin-bottom: 1px;
+    font-size: 18px;
+  }
+  .nav-links li:hover {
+    border-top: solid 6px #fff;
+    background: #259245;
+    left: -15px;
+    color: white;
+    width: 310px;
+    position: relative;
+}
+
+  .tracker{
+    position: absolute;
+    margin-left: 13%;
+    top: -2%;
+    color: #259245;
+    font-weight: 700;
+  }
+  .space{
+  
+  }
+  .sym p{
+    color:#000;
+    font-weight:700;
+  }
+  .symicon{
+    width: 80px;
+      height: 80px;
+      position: relative;
+      margin-left: 17%;
+      top: 1px;
+  }
+  .symmain{
+    color: #000;
+    margin-top: 40px;
+    border-top: solid 1px;
+  }
+  .symDiv{
+  
+  }
+  .gray{
+    color: #fff;
+    background: gray;
+  }
+  .green{
+    color: #fff;
+    background: #008000d6;
+  }
+  .red{
+    color: #fff;
+    background: #f30a0ad1;
+  }
+  .symDiv li{
+    margin-left: 3%;
+    list-style: circle;
+  }
+  .one p{
+    font-size: 14px;
+    font-weight: 700;
+    position: absolute;
+    margin-left: 13%;
+    text-transform: uppercase;
+  }
+  .ca{
+    font-size: 25px;
+    display: none;
+    font-weight: 700;
+    color: #259245;
+    border-left: 7px solid;
+    margin-left: 7px;
+  }
+  .source{
+    margin-left: -5%;
+    font-weight: 700;
+    color: #636363;
+    font-size: 12px;
+  }
+  .sourceDiv{
+    position: absolute;
+    top: 36%;
+    left: 30%;
+    z-index: 22;
+  }
+  .naija{
+    border-collapse: collapse;
+    width: 40%;
+    border: none;
+    text-align: center;
+    position: absolute;
+    top: 8%;
+  }
+  .text{
+    font-size: 20px;
+      font-weight: 700;
+      position: absolute;
+      text-transform: uppercase;
+  }
+  .flag{
+    width: 35px;
+    height: 35px;
+    margin-bottom: -5%;
+  }
+  .confirm-case{
+    color: rgb(10, 112, 207);
+  }
+  
+  .discharged-case{
+    color: #288a2c;
+   }
+  .Deaths-case{
+    color: red;
+    
+  }
+  .tt{
+    margin-left: 14%;
+      margin-top: 20%;
+      position: relative;
+      top: -30px;
+  }
+  .tt p {
+    font-size: 11px;
+      margin-top: -13%;
+  }
+  .gg{
+    margin-left: 14%;
+      margin-top: 15%;
+      position: relative;
+      top: 30px;
+  }
+  .gg p {
+    font-size: 11px;
+      margin-top: -13%;
+      text-align: center;
+      margin-left: 20%;
+  }
+  .live{
+    color:red;
+  }
+  .text-g{
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    top:80%;
+    left: 33%;
+    text-transform: uppercase;
+  }
+  .text-h{
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    top:80%;
+    left: 26%;
+    text-transform: uppercase;
+  }
+  table {
+    border-collapse: collapse;
+    width: 40%;
+    border: none;
+border: none;
+    text-align: center;
+    position: absolute;
+    top: 8%;
+    left: 60%;
+    z-index: 33;
+  }
+  .table-header{
+    background: #ffffff;
+    font-weight: 700;
+  }
+  .table-state{
+    background-color: #ddd;
+    border-bottom: solid 1px #a19d9d;
+  }
+  td{
+    border: 1px solid #ddd;
+    font-weight:700;
+      padding-top: 8px;
+      text-align: center;
+      padding-bottom: 8px;
+  }
+  .confirm-case-g{
+    color: #00BCD4;
+    font-size: 21px;
+  }
+  .discharged-case-g{
+    color: #288a2c;
+    font-size: 21px;
+  }
+  .Deaths-case-g{
+    color: red;
+    font-size: 21px;
+  }
+  .ss{
+    margin: 20%;
+  }
+  .ss p{
+  
+    text-align: center;
+    font-size: 15px;
+    margin-left: -6%;
+    font-weight: 700;
+    position: relative;
+    top: -20px;
+  }
+  .about{
+    position: absolute;
+      top: 50%;
+      font-size: 20px;
+      border-bottom: solid 1px #0000006b;
+  }
+  .about-child{
+    position: absolute;
+      top: 69%;
+      font-size: 20px;
+      margin: 5%;
+  }
+  .preventDiv{
+    position: relative;
+    top: 80px;
+    border: solid 2px #1b1a1abd;
+    border-radius: 20px;
+    width: 95%;
+    margin-left: 2.5%;
+    z-index: 22;
+    left: 40%;
+    width: 40%;
+  }
+  .symptoms-head{
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    top: 7.7%;
+    z-index:2;
+    text-align: center;
+  }
+  .symptoms-head h1 {
+  color:#000;
+  }
+  .load{
+    position: absolute;
+    top: -20%;
+    margin: 33%;
+    font-weight: 700;
+    left: 25%;
+    z-index: 20;
+    font-size: 30px;
+    transition: fade-out 9s;
+  }
+  .credit{
+    position: absolute;
+      top: 105%;
+      color: #ffffff;
+  }
+  nav{
+    display: block;
+    z-index: 2;
+    position: fixed;
+    top: 8%;
+  }
+  /* .symptoms-head p{
+    font-size: 18px;
+      font-weight: 700;
+      text-transform: capitalize;
+      color: #fff;
+      display: flex;
+      position: fixed;
+      top: 16%;
+  } */
+  .tit{
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+  .global {
+    padding-top: 15%;
+  } 
+}
