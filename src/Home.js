@@ -13,10 +13,15 @@ function Home(){
     globeCountries:[],
     loading: true,
   }
+  
+  
+  
   const [globeCountries, setGlobeCountries]=useState(nations)
 const[globe, setGlobe]= useState([]);
 const[searchCountries, setSearchCountries]=useState('');
 
+ 
+ 
 useEffect(()=>{
   const getGlobeCountries =async() => {
 
@@ -58,9 +63,12 @@ const globes=filterCountries.map((world) =>{
  });
 
 
+ 
+ 
  return globeCountries.loading ?(
   <div className="load">Loading...</div>
     ):(
+  
     <div className="main">
                    <div className="one">
                    <p className="live"><FaRegDotCircle   className="live-icon"/>LIVE</p>        
@@ -69,6 +77,9 @@ const globes=filterCountries.map((world) =>{
   <div className="gg"><h4 className="Deaths-case-g">{globeCountries.deaths}</h4><p>Deaths</p></div>
                              <p className="text-g"><FaGlobeEurope   className="wrld"/>Global Stats</p>       
             </div>
+  
+  
+  
             <div>
               <div className="sourceDiv">
               <h2 className="ca">COUNTRIES AFFECTED</h2>
@@ -96,6 +107,8 @@ const globes=filterCountries.map((world) =>{
                           
   );
 }
+
+
 
 
 export default Home;
