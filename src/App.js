@@ -14,9 +14,24 @@ import covid19 from './covid.png';
      
       <Router>
       <div>
+      
+      
+      //Header 
+      
       <header>
                 <h1>C<img src={covid19} alt='logo' className="log" />vid19<h1 className="tracker">TRACKER</h1></h1>
        </header>
+      
+      //
+      //
+      //
+      //
+      //
+      
+      
+      
+      
+      
         <Nav />
           <Switch>
         <Route path="/" exact component={Home}/>
