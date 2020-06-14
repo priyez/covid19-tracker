@@ -3,6 +3,7 @@ import stayHome from './download.gif';
 import './App.css';
 
 
+
 function prevention() {
 
 
@@ -27,5 +28,7 @@ function prevention() {
       </div>
     );
   }
+
+
 
 export default prevention;
