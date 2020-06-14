@@ -9,6 +9,8 @@ import flag from './naija icon.png';
 import './App.css';
 import { FaHeartbeat } from 'react-icons/fa';
 
+
+
 function Nav() {
     return (
         <nav>
@@ -22,5 +24,8 @@ function Nav() {
       </nav>
     );
   }
+
+
+
 
 export default Nav;
