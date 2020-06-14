@@ -25,6 +25,7 @@ const[searchCountries, setSearchCountries]=useState('');
 useEffect(()=>{
   const getGlobeCountries =async() => {
 
+
     const{data}= await axios("https://disease.sh/v2/all")
 
     setGlobeCountries(data)
